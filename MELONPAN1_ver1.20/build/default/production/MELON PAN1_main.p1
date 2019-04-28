@@ -22923,55 +22923,33 @@ Version 3.2 HI-TECH Software Intermediate Code
 }
 [e :U 2476 ]
 [; ;MELON PAN1_main.c: 77: }
-[; ;MELON PAN1_main.c: 79: if(bit_test(push_DS_data[1],5)){
-"79
-[e $ ! != -> ( _bit_test (2 , *U + &U _push_DS_data * -> -> -> 1 `i `ui `ux -> -> # *U &U _push_DS_data `ui `ux -> -> 5 `i `uc `i -> -> -> 0 `i `uc `i 2477  ]
-{
-[; ;MELON PAN1_main.c: 80: LATHbits.LATH3=~LATHbits.LATH3;
-"80
-[e = . . _LATHbits 0 3 -> ~ -> . . _LATHbits 0 3 `i `uc ]
-"82
-}
-[e :U 2477 ]
-[; ;MELON PAN1_main.c: 82: }
-[; ;MELON PAN1_main.c: 83: if(bit_test(push_DS_data[1],6)){
-"83
-[e $ ! != -> ( _bit_test (2 , *U + &U _push_DS_data * -> -> -> 1 `i `ui `ux -> -> # *U &U _push_DS_data `ui `ux -> -> 6 `i `uc `i -> -> -> 0 `i `uc `i 2478  ]
-{
-[; ;MELON PAN1_main.c: 84: LATDbits.LATD2=~LATDbits.LATD2;
-"84
-[e = . . _LATDbits 0 2 -> ~ -> . . _LATDbits 0 2 `i `uc ]
-"86
-}
-[e :U 2478 ]
-[; ;MELON PAN1_main.c: 86: }
-[; ;MELON PAN1_main.c: 88: }
-"88
+[; ;MELON PAN1_main.c: 78: }
+"78
 [e :UE 2475 ]
 }
-"90
+"80
 [v _BAD_de_gozaru `(v ~T0 @X0 1 ef ]
 {
-[; ;MELON PAN1_main.c: 90: void BAD_de_gozaru(){
+[; ;MELON PAN1_main.c: 80: void BAD_de_gozaru(){
 [e :U _BAD_de_gozaru ]
 [f ]
-[; ;MELON PAN1_main.c: 91: LATHbits.LATH2=0;
-"91
+[; ;MELON PAN1_main.c: 81: LATHbits.LATH2=0;
+"81
 [e = . . _LATHbits 0 2 -> -> 0 `i `uc ]
-[; ;MELON PAN1_main.c: 92: LATDbits.LATD0=1;
-"92
+[; ;MELON PAN1_main.c: 82: LATDbits.LATD0=1;
+"82
 [e = . . _LATDbits 0 0 -> -> 1 `i `uc ]
-[; ;MELON PAN1_main.c: 93: }
-"93
-[e :UE 2479 ]
+[; ;MELON PAN1_main.c: 83: }
+"83
+[e :UE 2477 ]
 }
-"95
+"85
 [v _always_de_gozaru `(v ~T0 @X0 1 ef ]
 {
-[; ;MELON PAN1_main.c: 95: void always_de_gozaru(){
+[; ;MELON PAN1_main.c: 85: void always_de_gozaru(){
 [e :U _always_de_gozaru ]
 [f ]
-[; ;MELON PAN1_main.c: 97: }
-"97
-[e :UE 2480 ]
+[; ;MELON PAN1_main.c: 87: }
+"87
+[e :UE 2478 ]
 }

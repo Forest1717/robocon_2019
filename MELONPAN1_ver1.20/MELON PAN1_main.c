@@ -75,16 +75,6 @@ void GOOD_de_gozaru(){				//受信成功時
     if(DS3_connect){
         output_LED5(DS_battery);
     }
-    
-    if(DS_MARU_PUSH){
-        BLUE_LED=~BLUE_LED;
-        //CSV_begin(1000);
-    }
-    if(DS_BATU_PUSH){
-        WHITE_LED=~WHITE_LED;
-        //CSV_end();
-    }
-    //csv_data++;
 }
 
 void BAD_de_gozaru(){				//受信失敗時
@@ -93,6 +83,6 @@ void BAD_de_gozaru(){				//受信失敗時
 }
 
 void always_de_gozaru(){			//いつでも実行(GOOD、BADにくらべ多く実行)
-    //CSV_transmit_task_signedint_4data(csv_data,csv_data*2,csv_data*(-1),csv_data*(-2));
+    
 }
 

@@ -26316,16 +26316,6 @@ LATHbits.LATH2=1;
 if(DS_data[1]==0x00){
 output_LED5(DS_data[3]);
 }
-
-if(bit_test(push_DS_data[1],5)){
-LATHbits.LATH3=~LATHbits.LATH3;
-
-}
-if(bit_test(push_DS_data[1],6)){
-LATDbits.LATD2=~LATDbits.LATD2;
-
-}
-
 }
 
 void BAD_de_gozaru(){
