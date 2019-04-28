@@ -83,6 +83,8 @@ void BAD_de_gozaru(){				//受信失敗時
 }
 
 void always_de_gozaru(){			//いつでも実行(GOOD、BADにくらべ多く実行)
-    
+    RED_LED = 1;
+    __delay_ms(5);
+    RED_LED = 0;
 }
 

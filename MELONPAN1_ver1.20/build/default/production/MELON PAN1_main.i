@@ -26324,6 +26324,8 @@ LATDbits.LATD0=1;
 }
 
 void always_de_gozaru(){
-
+LATDbits.LATD0 = 1;
+_delay((unsigned long)((5)*(64000000/4000.0)));
+LATDbits.LATD0 = 0;
 }
 
