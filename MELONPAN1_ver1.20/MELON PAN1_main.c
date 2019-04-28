@@ -75,6 +75,10 @@ void GOOD_de_gozaru(){				//óM¬Œ÷
     if(DS3_connect){
         output_LED5(DS_battery);
     }
+    
+    if(DS_MARU){
+        BLUE_LED = 1;
+    }
 }
 
 void BAD_de_gozaru(){				//óM¸”s
